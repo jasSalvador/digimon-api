@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar .nav-link{
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(138, 137, 137);
+}
+
+.navbar.abajo {
+    background-color: rgb(243, 169, 58);
+}
+
+.navbar.abajo a {
+    color: black;
+}
+
+#logo {
+    width: 100px;
+}
+
+.titulo {
+    max-width: 500px;
+}
+
+.titulo img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+main button {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card, .table{
+    box-shadow: 7px 7px 5px 0px rgb(243, 169, 58);
+    -webkit-box-shadow: 7px 7px 5px 0px rgb(243, 169, 58);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(243, 169, 58, 0.75);
+}
+
+.buscar {
+    background-image: url(../img/storm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 3.5rem;
+}
+
+#section-lista {
+    background: linear-gradient(80deg, blue, rgb(243, 223, 40), #3838ca);
+}
+
+.table {
+    background-color: rgb(186, 223, 220);
+}
+
+footer {
+    width: 100%;
+    display: inline-block;
+}
+
+
+/*Media*/
+@media screen and (max-width: 767px) {
+    #logo {
+        display: none;
+    }
+
+    .navbar-collapse ul {
+        margin-top: -25px;
+    }
+
+    .table td {
+        font-size: 14px;
+    }
+
+    .table button {
+        padding: 2px;
+    }
+}
