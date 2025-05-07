@@ -4,7 +4,6 @@ window.addEventListener("scroll", function () {
     navbar.classList.toggle("abajo", window.scrollY > 0);
 })
 
-
 //CAMBIAR COLOR TABLA
 let toggle = document.getElementById("color");
 let tabla = document.querySelector("table");
@@ -12,13 +11,6 @@ let tabla = document.querySelector("table");
 toggle.addEventListener('change', function() {
 tabla.style.background = this.checked ? "rgb(214, 199, 228)" : "rgb(186, 223, 220)";
 });
-
-//toggle: cambia el estado del elemento cada vez q se ejecuta
-//addEventListener: escuchador de eventos
-//change: detecta el cambio?
-
-
-
 
 //MOSTRAR DIGIMON SEGUN FORMULARIO
 //funcion coldback q se ejecuta en algun momento
@@ -53,7 +45,6 @@ formDigimon.addEventListener("submit", function (event) {   //captura elemento q
 })
 
 
-
 //LISTA DIGIMONES
 function listaDigimon() {
     let url = "https://digimon-api.vercel.app/api/digimon";
@@ -74,9 +65,6 @@ function listaDigimon() {
                 </tr>`;
             });
 
-            //ANTERIOR
-            /* let lista = document.getElementById("listado");
-            lista.innerHTML = insertarDatos; */
 
             $("#listado").html(insertarDatos);
             $('#tableDigimon').DataTable({
@@ -97,7 +85,6 @@ function listaDigimon() {
 listaDigimon();
 
 
-
 //funcion mostrar imagen tabla
 function verImagen(nombre, imagen) {
     //alert(imagen);
@@ -109,5 +96,4 @@ function verImagen(nombre, imagen) {
     myModal.show();
 }
 
-//verImagen();
 
