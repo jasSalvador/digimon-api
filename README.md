@@ -22,3 +22,6 @@ Consume de la API pública de Digimon para mostrar y buscar Digimons de forma in
 
 1. Escribe el nombre de un Digimon y haz clic en "Buscar" para verlo en la card.
 2. Explora el listado completo en la tabla y visualiza cada Digimon desde el modal.
+
+## 🔗 Ver demo
+👉 https://jassalvador.github.io/triviKids/index.html
